@@ -35,10 +35,10 @@ setup(
     author='Mark Lipscombe',
     author_email='mark@lipscombe.com',
     url='https://github.com/mlipscombe/instance-config',
-    py_modules=['instance_config'],
+    packages=['instance_config'],
     include_package_data=True,
     license="BSD",
-    zip_safe=False,
+    zip_safe=True,
     keywords='instance-config',
     classifiers=[
         'Development Status :: 5 - Production/Stable',

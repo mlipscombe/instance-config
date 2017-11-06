@@ -40,6 +40,7 @@ setup(
     license="BSD",
     zip_safe=True,
     keywords='instance-config',
+    install_requires=['boto3', 'credstash', 'consul', 'cached_property', 'consul_lock'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',

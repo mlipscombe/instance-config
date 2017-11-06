@@ -1,0 +1,5 @@
+boto3
+credstash
+consul
+cached_property
+git+https://github.com/mlipscombe/python-consul-lock#egg=consul_lock
